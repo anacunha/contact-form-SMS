@@ -1,4 +1,4 @@
-name: CodeGuru Reviewer GitHub Actions
+name: CodeGuru Reviewer GitHub Actions Integration
 
 on:
   push:
@@ -13,7 +13,7 @@ jobs:
     permissions:
       # Required to interact with GitHub's OIDC Token endpoint
       id-token: write
-      # Required for the Checkout action
+      # Required for Checkout action
       contents: read
       # Required for CodeQL action (upload SARIF file)
       security-events: write
